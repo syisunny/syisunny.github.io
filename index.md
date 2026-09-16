@@ -1,12 +1,35 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
 
-# Welcome to my blog
+# Welcome to Bardorade
 
-Welcome! I write about Java, Kubernetes, DevSecOps, AI and cybersecurity.
+Hi, I'm Bardorade.
 
-## Latest articles
+Senior Java Engineer focused on:
 
-- [My First Post]({% post_url 15092026_ca_gitlab_runner %})
+- Java & Jakarta EE
+- GitLab CI/CD
+- Kubernetes & RKE
+- AI Engineering
+- Cybersecurity
+
+---
+
+## Latest Articles
+
+- [Building a GitLab Runner with Custom CA]({% post_url 2026-09-15-ca-gitlab-runner %})
+
+- [Migrating Keycloak 26 on MySQL 8.4]({% post_url 2026-09-18-keycloak-26-migration %})
+
+---
+
+## Categories
+
+| Topic | Articles |
+|---|---:|
+| Java | 12 |
+| Kubernetes | 8 |
+| Security | 15 |
+| AI | 6 |
