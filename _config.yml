@@ -1,3 +1,8 @@
-title: bardorade
+title: Bardorade
 description: Java • Kubernetes • AI • Security
-theme: minima
+theme: jekyll-theme-merlot
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
