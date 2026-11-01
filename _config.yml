@@ -1,6 +1,6 @@
 title: Bardorade
 description: Java • Kubernetes • AI • Security
-theme: jekyll-theme-merlot
+theme: jekyll-theme-minimal
 
 markdown: kramdown
 
