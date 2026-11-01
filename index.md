@@ -8,6 +8,15 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 There should be whitespace between paragraphs.
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%d %B %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Header 1
